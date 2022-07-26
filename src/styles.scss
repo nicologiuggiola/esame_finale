@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+p{
+    font-size: 15px !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-family: 'Lemonada', cursive;
+}

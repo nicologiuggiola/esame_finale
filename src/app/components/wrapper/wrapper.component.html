@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="wrapper-title">
+      <h1>Our Beers</h1>
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam rutrum nulla at odio scelerisque, eget commodo lacus cursus. Integer pretium justo a felis fermentum egestas. Nullam vulputate hendrerit egestas. Integer suscipit interdum cursus. Donec luctus vulputate eros, a tristique leo accumsan vel. Maecenas lobortis eget metus at cursus. Curabitur varius ante sed odio commodo, eget mollis massa luctus. Morbi diam purus, vestibulum at metus ac, rutrum tempus velit. Integer a aliquet lorem, sed tincidunt dui. Suspendisse nec ipsum felis. Fusce bibendum libero a lacus gravida aliquam.
+
+        <br>
+        <br>
+        
+        Vivamus finibus varius nisl, vitae eleifend mi porttitor quis. Nunc non velit metus. Praesent tempor venenatis libero, quis consequat nisl tempus quis. Nullam eu magna magna. Maecenas non magna mauris. Aenean non magna bibendum, finibus lectus a, pretium ante. Cras vel urna sed orci rutrum auctor. </p>
+    </div>
+    <div class="divider"></div>
+    <div class="wrapper-body">
+      <app-beer-display *ngFor="let beer of beerArray" style="display: inline-block; margin-top: 10px;" [beer]="beer"></app-beer-display>
+    </div>
